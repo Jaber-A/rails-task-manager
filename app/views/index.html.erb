@@ -1,5 +1,0 @@
- <h1>Task Manager</h1>
-
-<% @tasks.each do |task| %>
-  <p><strong> <%= link_to task.title, task_path(task) %></strong> <%= task.details %></p>
-<% end %>
